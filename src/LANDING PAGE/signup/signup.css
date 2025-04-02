@@ -1,0 +1,21 @@
+p {
+    opacity: 0.5;
+}
+
+input {
+    border: 2px solid black;
+    font-size: larger;
+}
+
+button {
+    background-color: #387ed1;
+    border: none;
+    width: 9rem;
+    height: 3rem;
+    color: white;
+}
+
+.sub-btn:hover {
+    border: 1px solid #1e5eac;
+    opacity: 0.5;
+}

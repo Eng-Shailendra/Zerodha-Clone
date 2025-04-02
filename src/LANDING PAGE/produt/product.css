@@ -1,0 +1,39 @@
+.product-kit {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.product-console {
+    margin-left: 10rem;
+    margin-top: 8rem;
+    padding: 6rem;
+}
+
+/* universe componet */
+.uni-conti {
+    margin-top: 6rem;
+}
+
+
+.uni-col img {
+    height: 50px;
+    width: 200px;
+    padding: 10;
+    margin-bottom: 1rem;
+}
+
+.uni-col {
+    padding: 10%;
+}
+
+.uni-col p {
+    padding: 0 2rem;
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+
+.uni-row-conti {
+    padding: 3rem;
+}

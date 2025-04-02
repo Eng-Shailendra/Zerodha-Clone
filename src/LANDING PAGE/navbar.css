@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: none;
+    width: 100%;
+    height: auto;
+    margin-top: none;
+    background-color: #ffff;
+    z-index: 1000;
+
+
+}
+
+
+.col-head {
+    font-size: 30px;
+    opacity: 0.85;
+    font-weight: 500;
+}
