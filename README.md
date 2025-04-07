@@ -11,17 +11,18 @@ bnUc9Dn8DZ76C5xt
 
 
 
-# Zerodha Clone – Dashboard
+### 📊 Zerodha Clone – Dashboard
+This is the Dashboard module of the Zerodha Clone project. It provides users with a seamless trading dashboard interface including Holdings, Orders, Watchlist, Fund Summary, Interactive Charts, and Buy/Sell Windows.
 
-A frontend dashboard built with React, mimicking the core UI of the Zerodha trading platform.
+### 🚀 Tech Stack
+Tool / Library	Description
+React	Frontend library for building UI
+Vite	Lightning-fast dev server and build tool
+Tailwind CSS	Utility-first CSS framework
+React Router	Client-side routing
+Recharts / Chart.js	For rendering charts & data visualizations
+Custom Components	Built for modular and reusable UI
 
-## 🚀 Features
-
-- Dashboard overview (holdings, funds, orders)
-- Interactive charts
-- Component-based structure
-- Responsive design
-- Clean, modern UI
 
 ---
 
@@ -39,44 +40,6 @@ A frontend dashboard built with React, mimicking the core UI of the Zerodha trad
 1. **Clone the repository**
 ```bash
 git clone https://github.com/Eng-Shailendra/Zerodha-Clone.git
-```
-### 📁 Project Structure: Frontend
-frontend/
-│
-├── public/                  # Static files like images, favicons, etc.
-│   └── logo.png
-│
-├── src/                     # Source code for React app
-│   ├── assets/              # Static assets (e.g., SVGs, logos)
-│   │   └── react.svg
-│
-│   ├── components/          # Reusable components
-│   │   ├── Home.jsx
-│   │   ├── Menu.jsx
-│   │   ├── Topbar.jsx
-│   │   ├── WatchList.jsx
-│   │   └── window/          # Nested component folder (e.g., Buy/Sell windows)
-│   │       └── BuyAction.jsx
-│
-│   ├── data/                # Static data or mock data files
-│   │   └── data.js
-│
-│   ├── App.jsx              # Main app component
-│   ├── App.css              # App-level styles
-│   ├── index.css            # Global styles
-│   ├── main.jsx             # App entry point (ReactDOM.render)
-│
-├── .gitignore               # Ignore node_modules, .env, etc.
-├── package.json             # Project metadata and dependencies
-├── vite.config.js           # Vite configuration
-└── README.md                # Project description and setup instructions
-
-
-### for  frontend setup
-```bash
-cd frontend
-npm install
-npm run dev
 ```
 
 ### 📁 Project Structure: Dashbord
@@ -106,53 +69,6 @@ cd dashboard
 npm install
 npm run dev
 ```
-
-### Backend Project Structure
-backend/
-│
-├── controllers/             # Request handlers (business logic)
-│   ├── userController.js
-│   └── visiterController.js
-│
-├── models/                  # Mongoose models (MongoDB schema)
-│   ├── userModel.js
-│   ├── orderModel.js
-│   ├── holdingModel.js
-│   └── positionModel.js
-│
-├── routes/                  # Express routes
-│   ├── user.js
-│   ├── admin.js
-│   └── visiter.js
-│
-├── schemas/                 # Joi or validation schemas
-│   ├── userSchema.js
-│   ├── orderSchema.js
-│   ├── holdingSchema.js
-│   └── positionSchema.js
-│
-├── middlewares/            # Custom middleware
-│   ├── wrapAsync.js
-│   ├── middleware.js
-│   └── expressError.js
-│
-├── .env                     # Environment variables
-├── .gitignore               # Ignore node_modules, .env, etc.
-├── package.json             # Project metadata and dependencies
-├── package-lock.json        # Dependency lockfile
-├── index.js                 # App entry point
-└── README.md                # Project overview & setup instructions
-
-
-### for backend setup  
-```bash
-cd backend
-npm install
-nodemon index.js
-```
-
-
----
 
 ###  **Where to Start**
 🧭
