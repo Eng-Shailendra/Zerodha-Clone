@@ -72,32 +72,27 @@ npm install
 npm run dev
 ```
 
-###  **Where to Start**
-🧭
-1. Run the backend server first from `/backend`
-2. Then start the frontend or dashboard (they fetch data from backend)
-3. Config environment variables in `.env` file (use `.env.example` as reference)
+### 🧭 Where to Start
+Edit Dashboard layout: src/components/Dashbord.jsx
 
-## 🔐 Environment Variables
-In the `/backend` folder, create a `.env` file:
-```env
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/zerodha
-JWT_SECRET=your-secret
-```
+Topbar/Menu navigation: src/components/Topbar.jsx, Menu.jsx
+
+Charts & Graphs: Located in Verticalchart.jsx and DonetChat.jsx
+
+Buy/Sell Modal: window/BuyAction.jsx
+
+Sample stock data: data/data.js
+
+###🌟 Features
+Clean, responsive layout similar to Zerodha Kite
+
+Componentized architecture
+
+Ready to connect with real backend APIs
+
+Interactive chart placeholders
+
+Modular, easily extendable UI
 
 
 
-
----
-
-### **Future Work / Contribution Guidelines**
-```
-## 🛠️ Future Improvements
-- Add authentication and user roles
-- Improve chart responsiveness
-- Connect to real-time stock API
-
-## 🤝 Contributions
-Feel free to open issues or pull requests!
-```
