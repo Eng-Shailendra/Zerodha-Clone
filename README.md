@@ -14,13 +14,13 @@ bnUc9Dn8DZ76C5xt
 ### 📊 Zerodha Clone – Dashboard
 This is the Dashboard module of the Zerodha Clone project. It provides users with a seamless trading dashboard interface including Holdings, Orders, Watchlist, Fund Summary, Interactive Charts, and Buy/Sell Windows.
 
-### 🚀 Tech Stack
-Tool / Library	Description
-React	Frontend library for building UI
-Vite	Lightning-fast dev server and build tool
-Tailwind CSS	Utility-first CSS framework
-React Router	Client-side routing
-Recharts / Chart.js	For rendering charts & data visualizations
+### 🚀 Tech Stack ###
+Tool         /     Library	Description
+React          	Frontend library for building UI
+Vite	          Lightning-fast dev server and build tool
+Tailwind CSS	  Utility-first CSS framework
+React Router	  Client-side routing
+Chart.js	      For rendering charts & data visualizations
 Custom Components	Built for modular and reusable UI
 
 
@@ -43,6 +43,7 @@ git clone https://github.com/Eng-Shailendra/Zerodha-Clone.git
 ```
 
 ### 📁 Project Structure: Dashbord
+```
 dashbord/
 │
 ├── public/                 # Static assets
