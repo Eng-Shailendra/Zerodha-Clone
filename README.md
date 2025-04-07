@@ -83,7 +83,7 @@ Buy/Sell Modal: window/BuyAction.jsx
 
 Sample stock data: data/data.js
 
-###🌟 Features
+### 🌟 Features
 Clean, responsive layout similar to Zerodha Kite
 
 Componentized architecture
