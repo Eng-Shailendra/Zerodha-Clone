@@ -1,18 +1,23 @@
 
 # Zerodha Clone – Backend
 
-A backend of the project bassed on  express .js and some imported libraies
+🧾 Backend Overview – Zerodha Clone
+This backend project is built using Node.js and Express.js, structured to support a Zerodha-like stock trading platform. It handles APIs for user authentication, orders, holdings, positions, and visitor interactions. The project uses MongoDB with Mongoose for database operations and follows a modular MVC architecture for scalability.
 
+🧰 Tech Stack & Libraries
+Library            	Purpose
+express	      Web framework for routing and server setup
+mongoose	    MongoDB object modeling and schema setup
+dotenv	      Manage environment variables securely
+joi	          Input validation for requests
+cors	        Enable cross-origin requests
+morgan	      HTTP request logging
+helmet	      Secure HTTP headers
+passport	    Authentication handling
+passport-local	Local strategy for login
+express-session	Session management
+connect-mongo	  Store sessions in MongoDB
 
-
-## 🏁 Getting Started
-
-### 📦 Prerequisites
-
-- Node.js and npm installed
-- Code editor like VS Code
-
----
 
 ### 🔧 Setup Instructions
 
