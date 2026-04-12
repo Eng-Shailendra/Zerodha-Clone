@@ -244,6 +244,14 @@ app.use((err, req, res, next) => {
 })
 app.listen(PORT, () => {
     console.log("app is started on 3002  !!!!")
-    mongoose.connect(uri)
-    console.log("app is connected to mongo db")
+   
 })
+
+mongoose.connect(process.env.MONGODB_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true, }).then(()=>{
+        console.log("connected to database successfully !!!!")
+    }).catch((err)=>{
+        console.log("error in connecting to database !!!!");
+        console.error(err);
+    })
